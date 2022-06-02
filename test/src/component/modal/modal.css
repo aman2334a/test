@@ -1,0 +1,54 @@
+.modal-main-wrapper{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(214, 210, 210);
+    width: 30%;
+    height: 100vh;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.edit-form-heading{
+  
+    text-align: center;
+}
+
+input[type=text],input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
+
+  .detail-edit-form-section{
+      padding: 40px;
+  }
+
+  form{
+      display: grid;
+  }
+
+  .close-btn{
+      text-align: end;
+      margin: 20px 20px 0 30px;
+      cursor: pointer;
+  }

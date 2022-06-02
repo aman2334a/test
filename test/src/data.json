@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "fname": "Aman1",
+    "lname": "Kumar",
+    "age": 61,
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "fname": "Aman2",
+    "lname": "Kumar",
+    "age": 64,
+    "gender": "male"
+  },
+  {
+    "id": 3,
+    "fname": "john",
+    "lname": "doe",
+    "age": 23,
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "fname": "Immo",
+    "lname": "Test",
+    "age": 67,
+    "gender": "male"
+  }
+
+
+]

@@ -1,0 +1,65 @@
+
+.headingcolumns{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-weight: 700;
+    padding: 20px;
+}
+.mainTableDiv{
+  margin: 20px;
+  padding: 20px;
+}
+.body{
+  display: flex;
+  justify-content: space-between;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  background-color: #e3e1dd;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.customDeleteBtn{
+  /* display: flex; */
+  width: 65px;
+  gap: 4px;
+  height: 20px;
+  border: 1px solid #FF5F5F;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FF5F5F;
+  padding: 0px 2px 1px 2px;
+}
+
+
+.customEditBtn{
+  display: flex;
+  width: 40px;
+  gap: 4px;
+  height: 20px;
+  border: 1px solid #009868;
+  border-radius: 4px;
+  color: #009868;
+  cursor: pointer;
+  padding: 1px 1px 0px 7px;
+}
+
+.headings{
+  width: 10%;
+  text-transform: capitalize;
+}
+.action{
+  width: 9%;
+  display: flex;
+  gap: 11px;
+}
+.actionHeading{
+  width: 9%;
+}
+
+

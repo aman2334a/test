@@ -9,7 +9,7 @@ export default function Table(props) {
 
     const openModalHandler = (id, index) => {
         setIdForUpdate(index)
-        setDataForUpdate(props.data[index])
+        setDataForUpdate({...props.data[index]})
         setModal(!modal)
     }
 
